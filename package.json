@@ -1,0 +1,26 @@
+{
+  "name": "gravitrips",
+  "version": "1.0.0",
+  "description": "An Online Multiplayer Connect4 Game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js -e ejs,js,css,html,jpg,png,scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GauthamBellamkonda/Gravitrips.git"
+  },
+  "author": "Gautham Bellamkonda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GauthamBellamkonda/Gravitrips/issues"
+  },
+  "homepage": "https://github.com/GauthamBellamkonda/Gravitrips#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18",
+    "socket.io": "^4.5.1"
+  }
+}
